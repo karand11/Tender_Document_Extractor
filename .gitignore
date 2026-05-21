@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment variables (Sensitive secrets!)
+.env
+
+# Local Cache directory
+.cache/
+
+# Compiled JavaScript output
+dist/
+
+# Local sample PDFs and generated outputs
+*.pdf
+extracted_products.json
+tender_sample_output.json
+
+# IDE or OS specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
